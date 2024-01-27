@@ -1,39 +1,44 @@
 /*ローディング画面*/
-#loading 
+
+
+body
 {
-    transition: all 1s;
-    background-color: #ddd;
-    position: fixed;
-    z-index: 9999;
-    inset: 0;
-    display: grid;
-    place-items: center;
+    text-align: center;
+    font-family: 'kiwi Maru', serif;
+    padding: 2rem;
+    transition: .5s;
 }
-.spinner 
+.dark-theme
 {
-    width: 200px;
-    height: 200px;
+    background: #223a70;
+    color: #ddd;
 }
 
-/*ローディング完了したらローディング画面を隠す*/
-.loaded
+#btn
 {
-    opacity: 0;
-    visibility: hidden;
+    background: #0bd;
+    padding: 1rem;
+        margin-bottom: 2rem;
+    font-size: 1rem;
+    color: fff;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
 }
+
 
 /*コンテンツ部分*/
-.gallary
+
+
+.img-container 
 {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-img
-{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
