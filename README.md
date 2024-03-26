@@ -1,3 +1,3 @@
 # Ilekaede.github.io
 
-Ilekaede.github.io
+プロフィールのリンクからサイトに飛べます
